@@ -10,13 +10,12 @@
     <body>
       <section>
         <div class="container">
-         <div class="row">
            <img class="img" src="img/meme.jpg" alt="">
-           <input id="text1" type="text" name="" method="get" value="">
-           <input id="text2" type="text" name="" method="get" value="">
-         </div>
+           <input id="text1" type="text" name="up" method="get" value="Text Up">
+           <input id="text2" type="text" name="down" method="get" value="Text Down">
+           <button type="button" name="button">Click</button>
         </div>
-    </section>
+     </section>
 
     <section>
         <div class="container">
