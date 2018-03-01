@@ -12,3 +12,17 @@
 .inputs{
     margin-top : 20px;
 }
+
+#centeredTop {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#centeredBottom {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
