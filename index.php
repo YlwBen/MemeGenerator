@@ -15,9 +15,9 @@
                 <img class="img" src="img/meme.jpg" alt="">
             </div>
             <div class="inputs col-12 text-center">
-                <input id="text1" type="text" name="up" method="get" value="Text Up">
-                <input id="text2" type="text" name="down" method="get" value="Text Down">
-                <button type="button" name="button">Click</button>
+                <input id="textTop" type="text" name="up" method="get" value="Text Up">
+                <input id="textBottom" type="text" name="down" method="get" value="Text Down">
+                <button type="button" id="textButton">Click</button>
             </div>
         </div>
      </section>
