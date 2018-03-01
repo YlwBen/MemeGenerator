@@ -1,4 +1,10 @@
 .img{
     height: 490px;
     width: 490px;
+    margin-top: 20px;
+}
+.icone{
+    height: 160px;
+    width: 160px;
+    margin-top: 80px;
 }
