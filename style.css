@@ -26,3 +26,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.textMeme{
+    color : white;
+    font-weight: bold;
+    text-shadow: #000000 2px 2px, #000000 -2px 2px, #000000 -2px -2px, #000000 2px -2px;
+    font-size: 25px;
+}

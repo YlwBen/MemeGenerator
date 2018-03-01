@@ -25,8 +25,8 @@ for (let i = 0; i < img.length; i++) { // Tant que i < "nombred'images" alors i 
         if (textTop != '' && textBottom != ''){
             document.querySelector("#contMeme").innerHTML = `
             <img class="img" src="${chemin}">
-            <div id="centeredTop"> ${textTop} </div>
-            <div id="centeredBottom"> ${textBottom} </div>
+            <div id="centeredTop" class="textMeme"> ${textTop} </div>
+            <div id="centeredBottom" class="textMeme"> ${textBottom} </div>
             `;
         }else{
             return false;

@@ -13,12 +13,10 @@
         <div class="container">
             <div class="col-12 text-center" id="contMeme">
                 <img class="img" src="img/meme.jpg" alt="">
-                 <div id="centeredTop"></div>
-                 <div id="centeredBottom"></div>
             </div>
             <div class="inputs col-12 text-center">
-                <input id="textTop" type="text" name="up" method="get" value="Text Up">
-                <input id="textBottom" type="text" name="down" method="get" value="Text Down">
+                <input id="textTop" type="text" method="get">
+                <input id="textBottom" type="text" method="get">
                 <button type="button" id="textButton">Click</button>
             </div>
         </div>
