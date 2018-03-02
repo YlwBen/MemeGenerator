@@ -26,7 +26,7 @@ for (let i = 0; i < img.length; i++) { // Tant que i < "nombred'images" alors i 
             document.querySelector("#contMeme").innerHTML = `
             <img class="img" src="${chemin}">
             <div id="centeredTop" class="textMeme"> ${textTop} </div>
-            <div id="centeredBottom" class="textMeme"> ${textBottom} </div>
+            <div id="centeredBottom"> ${textBottom} </div>
             `;
         }else{
             return false;
