@@ -12,7 +12,7 @@
       <section>
         <div class="container">
             <div class="col-12 text-center" id="contMeme">
-                <img class="img" src="img/meme.jpg" alt="">
+                <img class="img" src="img/img1.jpg" alt="">
             </div>
             <div class="inputs col-12 text-center">
                 <input id="textTop" type="text" method="get">
