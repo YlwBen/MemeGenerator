@@ -12,11 +12,13 @@
       <section>
         <div class="container">
             <div class="col-12 text-center" id="contMeme">
-                <img class="img" src="img/img1.jpg" alt="">
+                <img class="img" id="imgAttente" src="img/img1.jpg" alt="">
+                <div id="centeredTop" class="textMeme"></div>
+                <div id="centeredBottom" class="textMeme"></div>
             </div>
             <div class="inputs col-12 text-center">
-                <input id="textTop" type="text" method="get">
-                <input id="textBottom" type="text" method="get">
+                <input id="textTop" type="text" method="get" onkeyup="textTop()">
+                <input id="textBottom" type="text" method="get" onkeyup="textBottom()">
                 <button type="button" id="textButton">Click</button>
             </div>
         </div>
@@ -45,7 +47,7 @@
     </section>
 
 
-
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
