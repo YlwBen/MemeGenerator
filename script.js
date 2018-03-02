@@ -9,12 +9,29 @@ for (let i = 0; i < img.length; i++) { // Tant que i < "nombred'images" alors i 
     })
 };
 
-function textTop(){
-    const textUp = document.querySelector("#textTop").value;
-    document.querySelector("#centeredTop").innerHTML = textUp;
+function txtUp(){
+    const textTop = document.querySelector("#textTop").value;
+    document.querySelector("#centeredTop").innerHTML = textTop;
 };
 
-function textBottom(){
+function txtDown(){
     const textBottom = document.querySelector("#textBottom").value;
     document.querySelector("#centeredBottom").innerHTML = textBottom;
 };
+
+var formValid = document.getElementById('bouton_envoi');
+
+formValid.addEventListener('click', validation);
+
+function validation(event){
+    //Si le champ est vide
+    if  text.validity.valueMissing){
+        event.preventDefault();
+        textTop.style.color = 'red';
+        textTop.textContent='champ vide';
+        textBottom.style.color = 'red';
+        textBottom.textContent='champ vide';
+    }else{
+        return false;
+    }
+  };
