@@ -25,7 +25,7 @@ formValid.addEventListener('click', validation);
 
 function validation(event){
     //Si le champ est vide
-    if  text.validity.valueMissing){
+    if  (text.validity.valueMissing){
         event.preventDefault();
         textTop.style.color = 'red';
         textTop.textContent='champ vide';

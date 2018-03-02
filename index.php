@@ -23,8 +23,8 @@
 
                    <div class="inputs col-12 text-center">
                      <form method="post">
-                         <input placeholder='text top' name='text' id='textTop' maxlength='20' required onkeyup="txtUp()">
-                         <input placeholder='text bottom' name='text' id='textBottom' required onkeyup="txtDown()">
+                         <input placeholder='text top' class="text" id='textTop' maxlength='20' required onkeyup="txtUp()">
+                         <input placeholder='text bottom' class="text" id='textBottom' maxlength='20' required onkeyup="txtDown()">
                          <input type='submit' value='Valider' id='bouton_envoi'>
                     </form>
                  </div>
