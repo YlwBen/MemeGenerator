@@ -9,6 +9,7 @@
 
     <body>
 
+<<<<<<< HEAD
 
                 <h1 class="text-center">MemeGenerator</h1>
 
@@ -55,6 +56,20 @@
                       }
                 </script>
 
+=======
+      <section>
+        <div class="container">
+            <div class="col-12 text-center" id="contMeme">
+                <img class="img" src="img/img1.jpg" alt="">
+            </div>
+            <div class="inputs col-12 text-center">
+                <input id="textTop" type="text" method="get">
+                <input id="textBottom" type="text" method="get">
+                <button type="button" id="textButton">Click</button>
+            </div>
+        </div>
+     </section>
+>>>>>>> f1839373b081d120259f2a66e06547b20d90f554
 
     <section>
         <div class="container">
