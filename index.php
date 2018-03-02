@@ -12,18 +12,28 @@
 
     <body>
 
-      <section>
-        <div class="container">
-            <div class="col-12 text-center" id="contMeme">
-                <img class="img" src="img/img1.jpg" alt="">
-            </div>
-            <div class="inputs col-12 text-center">
-                <input id="textTop" type="text" method="get">
-                <input id="textBottom" type="text" method="get">
-                <button type="button" id="textButton">Click</button>
-            </div>
-        </div>
-     </section>
+
+            <h1 class="text-center">MemeGenerator</h1>
+
+
+             <section>
+               <div class="container">
+                   <div class="col-12 text-center" id="contMeme">
+                       <img class="img" id="imgAttente" src="img/img1.jpg" alt="">
+                       <div class="textMeme" id="centeredTop"></div>
+                       <div class="textMeme" id="centeredBottom"></div>
+                   </div>
+
+                   <div class="inputs col-12 text-center">
+                     <form method="post">
+                         <input placeholder='text top' name='text' id='textTop' maxlength='20' required onkeyup="txtUp()">
+                         <input placeholder='text bottom' name='text' id='textBottom' required onkeyup="txtDown()">
+                         <input type='submit' value='Valider' id='bouton_envoi'>
+                    </form>
+                 </div>
+              </div>
+            </section>
+
 
     <section>
         <div class="container">
@@ -48,7 +58,7 @@
     </section>
 
 
-
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
