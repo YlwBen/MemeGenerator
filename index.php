@@ -16,7 +16,6 @@
 
             <h1 class="text-center">MemeGenerator</h1>
 
-
         <section>
             <div class="container">
                 <form method="post" action="action.php">
@@ -34,8 +33,6 @@
                 </form>
             </div>
         </section>
-
-
     <section>
         <div class="container">
          <div class="row">
