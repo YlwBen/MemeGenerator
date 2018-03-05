@@ -15,6 +15,7 @@
 
              <section>
                <div class="container">
+                 <form method="post">
                    <div class="col-12 text-center" id="contMeme">
                        <img class="img" id="imgAttente" src="img/img1.jpg" alt="">
                        <div class="textMeme" id="centeredTop"></div>
@@ -22,12 +23,11 @@
                    </div>
 
                    <div class="inputs col-12 text-center">
-                     <form method="post">
                          <input placeholder='text top' class="text" id='textTop' maxlength='20' required onkeyup="txtUp()">
                          <input placeholder='text bottom' class="text" id='textBottom' maxlength='20' required onkeyup="txtDown()">
                          <input type='submit' value='Valider' id='bouton_envoi'>
-                    </form>
-                 </div>
+                  </div>
+                </form>
               </div>
             </section>
 
