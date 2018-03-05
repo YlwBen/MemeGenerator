@@ -6,7 +6,12 @@ for (let i = 0; i < img.length; i++) { // Tant que i < "nombred'images" alors i 
 
    const chemin = img[i].src;
    document.querySelector("#imgAttente").src = chemin;
+   document.querySelector("#imgAttente").alt = chemin;
+   document.querySelector("#imgAttente").name = 'image';
+   document.querySelector("#image").value = chemin;
+   //window.location.href = 'action.php?var=$key&chemin='+chemin;
     })
+
 };
 
 function txtUp(){

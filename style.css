@@ -1,3 +1,7 @@
+body{
+    font-family: FreeSerif;
+}
+
 .img{
     height: 490px;
     width: 490px;
@@ -31,5 +35,8 @@
     color : white;
     font-weight: bold;
     text-shadow: #000000 2px 2px, #000000 -2px 2px, #000000 -2px -2px, #000000 2px -2px;
-    font-size: 25px;
+    font-size: 50px;
+}
+#image{
+    display: none;
 }
