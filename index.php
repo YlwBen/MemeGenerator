@@ -19,7 +19,7 @@
             <div class="container">
                 <form method="post" action="action.php">
                     <div class="col-12 text-center" id="contMeme">
-                        <img class="img" id="imgAttente" src="img/img1.jpg" name='image'>
+                        <img class="img" id="imgAttente" src="img/img1.jpg">
                         <div class="textMeme" id="centeredTop"></div>
                         <div class="textMeme" id="centeredBottom"></div>
                     </div>
