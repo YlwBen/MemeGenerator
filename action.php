@@ -1,5 +1,4 @@
 <?php
-    include('header.php');
     include('controleur.php');
 
     //error_log("coucou je passe ici\n", 3, "log/test.log"); // Permet de voir les erreur dans le terminal (pour du php)
@@ -25,8 +24,6 @@
      $font = "/usr/share/fonts/truetype/freefont/FreeSerif.ttf";
      var_dump($font);
 
-     $indice_fonts = imageloadfont('./04b.gdf');
-
      // // Set Text to Be Printed On Image
      $textTop = $_POST['textTop'];
      var_dump($textTop);
@@ -37,7 +34,7 @@
 
      // // Print Text On Image
      $white = imagecolorallocate($jpg_image, 255, 255, 255);
-     imagettftext($jpg_image, 25, 0, 75, 300, $white, $fonts, $textTop);
+     imagettftext($jpg_image, 25, 0, 75, 300, $white, $font, $textTop);
      //header('Content-type: image/png');
      echo '<img class="img" src="'.$url.'">';
 
@@ -47,5 +44,5 @@
      // // Clear Memory
      // imagedestroy($jpg_image);
 
-include ('footer.php');
+
 ?>
