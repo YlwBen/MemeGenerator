@@ -1,4 +1,5 @@
 <?php
+    include('header.php');
     include('controleur.php');
 
     //error_log("coucou je passe ici\n", 3, "log/test.log"); // Permet de voir les erreur dans le terminal (pour du php)
@@ -46,5 +47,5 @@
      // // Clear Memory
      // imagedestroy($jpg_image);
 
-
+include ('footer.php');
 ?>
